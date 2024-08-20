@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Container untuk halaman error */
+.error-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 120px auto;
+    padding: 20px;
+    background-color: #f8d7da;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.error-container h1 {
+    font-size: 100px;
+    color: #721c24;
+    margin-bottom: 20px;
+}
+
+.error-container h2 {
+    font-size: 24px;
+    color: #721c24;
+    margin-bottom: 10px;
+}
+
+.error-container p {
+    font-size: 16px;
+    color: #721c24;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #721c24;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-link:hover {
+    background-color: #5c0b10;
+}
